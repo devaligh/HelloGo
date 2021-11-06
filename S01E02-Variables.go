@@ -51,4 +51,18 @@ func main() {
 	inferred_var := "Hello, How Are You?"
 	println(inferred_var)
 
+	// 💎 CONSTANS : unchanged variable
+	// 👍🏻 Recommendation: Please use CAPITAL characters in const naming
+
+	const PI float32 = 3.14
+
+	const (
+		SERVER_NAME string = "Test Server"
+		IP          string = "127.0.01"
+	)
+
+	fmt.Println(PI * 3)
+	fmt.Println("Server Name:" + SERVER_NAME)
+	fmt.Println("Local IP is " + IP)
+
 }
